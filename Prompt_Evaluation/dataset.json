@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a JSON configuration object for an AWS Lambda function that processes S3 events, with environment variables for a DynamoDB table name and CloudWatch log group",
+    "format": "json",
+    "solution_criteria": "JSON must include Lambda function configuration with event source mapping for S3, environment variables section with DynamoDB table name and CloudWatch log group name, and proper AWS resource ARN formatting"
+  },
+  {
+    "task": "Write a Python function that takes an AWS S3 object key path and returns a list of all parent directory paths. For example, 'bucket/folder1/folder2/file.txt' should return ['bucket', 'bucket/folder1', 'bucket/folder1/folder2']",
+    "format": "python",
+    "solution_criteria": "Function must correctly parse S3 object keys using forward slashes, handle edge cases like single-level keys, and return paths in hierarchical order from root to immediate parent"
+  },
+  {
+    "task": "Create a regex pattern that matches valid AWS IAM role ARNs in the format 'arn:aws:iam::ACCOUNT_ID:role/ROLE_NAME' where ACCOUNT_ID is 12 digits and ROLE_NAME contains alphanumeric characters, hyphens, and underscores",
+    "format": "regex",
+    "solution_criteria": "Regex must validate the complete ARN structure, enforce exactly 12 digits for account ID, allow only alphanumeric characters/hyphens/underscores in role name, and not match invalid variations"
+  }
+]
