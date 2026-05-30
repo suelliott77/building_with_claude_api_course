@@ -10,3 +10,4 @@ Personal notes and exercises taken through Jupyter notebooks while completing th
 - **Tool_use_with_Claude** — Using tools within Claude
 - **RAG_and_Agentic_Search** — Retrieval-Augmented Generation techniques including text chunking, embeddings, vector databases (ChromaDB), BM25 keyword search, and hybrid search combining semantic and keyword retrieval
 - **Features of Claude** — Different Features within Claude and how to use them
+- **Model Context Protocol** — Using MCP and communicating between client and server
